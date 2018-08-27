@@ -1,0 +1,2 @@
+# block definitions
+bdef symbol:l width:100 height:100 hit_points:3 fill-3:image(block_images/chicken.jpg) fill-2:image(block_images/chicken.jpg) fill-1:image(block_images/chicken_2.jpg)

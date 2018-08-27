@@ -1,0 +1,67 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Angry Birds!
+ball_velocities:-45,450 -30,450 -15,450
+background:image(background_images/angry_birds.jpg)
+paddle_speed:500
+paddle_width:160
+block_definitions:definitions/angry_birds_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:2
+START_BLOCKS
+--ll--
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: chicken invaders
+ball_velocities:45,450 -45,450 -30,450 30,450
+background:image(background_images/chicken_invaders.jpg)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/chicken_invaders_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:6
+START_BLOCKS
+-
+-
+-
+-
+-llllll--
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Icy Tower
+ball_velocities:45,400 -45,400 -30,400 30,400
+background:image(background_images/icy_tower.jpg)
+paddle_speed:650
+paddle_width:300
+block_definitions:definitions/icy_tower_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:30
+row_height:15
+num_blocks:12
+START_BLOCKS
+-
+-
+-
+-
+-llllll--
+-zzzzzz--
+END_BLOCKS
+END_LEVEL

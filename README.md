@@ -1,2 +1,2 @@
 # ArknoidOOP
-Arknoid game implementation
+Arknoid game implementation and space invaders implementation
